@@ -30,6 +30,16 @@ sudo apt install curl -y
 echo -e "${GREEN}Curl installation finished.${NO_COLOR}"
 clear
 
+echo -e ${PURPLE}"I'm going to install Node now.${NO_COLOR}"
+sudo apt install nodejs
+echo -e "${GREEN}Node installation finished.${NO_COLOR}"
+clear
+
+echo -e ${PURPLE}"I'm going to install Python now.${NO_COLOR}"
+sudo apt install python3.9
+echo -e "${GREEN}Python installation finished.${NO_COLOR}"
+clear
+
 echo -e ${PURPLE}"I'm going to install zhs now.${NO_COLOR}"
 sudo apt-get install zsh -y
 echo -e "${GREEN}zhs installation finished.${NO_COLOR}"
