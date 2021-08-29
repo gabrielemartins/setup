@@ -35,6 +35,12 @@ sudo apt install nodejs
 echo -e "${GREEN}Node installation finished.${NO_COLOR}"
 clear
 
+echo -e ${PURPLE}"I'm going to install NVM now.${NO_COLOR}"
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+source ~/.profile
+echo -e "${GREEN}NVM installation finished.${NO_COLOR}"
+clear
+
 echo -e ${PURPLE}"I'm going to install Python now.${NO_COLOR}"
 sudo apt install python3.9
 echo -e "${GREEN}Python installation finished.${NO_COLOR}"
