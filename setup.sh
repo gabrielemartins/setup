@@ -138,7 +138,7 @@ echo -e "${GREEN}Beekeeper Studio installation finished.${NO_COLOR}"
 clear
 
 echo -e ${PURPLE}"I'm going to install VirtualBox now.${NO_COLOR}"
-sudo apt-get install virtualbox
+sudo snap install virtualbox
 echo -e "${GREEN}VirtualBox installation finished.${NO_COLOR}"
 clear
 
