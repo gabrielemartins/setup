@@ -164,7 +164,5 @@ echo -e "${GREEN}Spotify installation finished.${NO_COLOR}"
 clear
 
 echo -e ${PURPLE}"I'm going to install Discord now.${NO_COLOR}"
-wget -O discord.deb "https://discordapp.com/api/download?platform=linux&format=deb"
-sudo dpkg -i /path/to/discord.deb
-echo -e "${GREEN}Discord installation finished.${NO_COLOR}"
+sudo snap install discord
 clear
