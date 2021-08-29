@@ -125,9 +125,7 @@ echo -e "${GREEN}Theme and extentions installation finished.${NO_COLOR}"
 clear
 
 echo -e ${PURPLE}"I'm going to install Postman now.${NO_COLOR}"
-wget https://dl.pstmn.io/download/latest/linux64
-sudo tar -xvf linux64 -C /usr/bin
-export PATH=$PATH:/usr/bin/Postman
+sudo snap install postman
 echo -e "${GREEN}Postman installation finished.${NO_COLOR}"
 clear
 
