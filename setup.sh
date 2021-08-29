@@ -147,3 +147,10 @@ echo -e ${PURPLE}"I'm going to install VirtualBox now.${NO_COLOR}"
 sudo apt-get install virtualbox
 echo -e "${GREEN}VirtualBox installation finished.${NO_COLOR}"
 clear
+
+echo -e ${PURPLE}"I'm going to install Plank now.${NO_COLOR}"
+sudo add-apt-repository ppa:ricotz/docky
+sudo apt-get update
+sudo apt-get install plank
+echo -e "${GREEN}Plank installation finished.${NO_COLOR}"
+clear
