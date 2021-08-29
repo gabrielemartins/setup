@@ -52,7 +52,7 @@ clear
 
 echo -e ${PURPLE}"I'm going to install NVM now.${NO_COLOR}"
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-source ~/.profile
+source ~/.zshrc
 echo -e "${GREEN}NVM installation finished.${NO_COLOR}"
 clear
 
