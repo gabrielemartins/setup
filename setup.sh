@@ -135,3 +135,10 @@ export PATH=$PATH:/usr/bin/Postman
 echo -e "${GREEN}Postman installation finished.${NO_COLOR}"
 clear
 
+echo -e ${PURPLE}"I'm going to install Beekeeper Studio now.${NO_COLOR}"
+wget -O - https://deb.beekeeperstudio.io/beekeeper.key | sudo apt-key add -
+echo "deb https://deb.beekeeperstudio.io stable main" | sudo tee /etc/apt/sources.list.d/beekeeper-studio-app.list
+sudo apt update
+sudo apt install beekeeper-studio
+echo -e "${GREEN}Beekeeper Studio installation finished.${NO_COLOR}"
+clear
