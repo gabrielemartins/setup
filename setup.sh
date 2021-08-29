@@ -127,3 +127,11 @@ code --install-extension eamodio.gitlens
 echo -e "${LIGHT_GREEN}GitLens installation finished.${NO_COLOR}"
 echo -e "${GREEN}Theme and extentions installation finished.${NO_COLOR}"
 clear
+
+echo -e ${PURPLE}"I'm going to install Postman now.${NO_COLOR}"
+wget https://dl.pstmn.io/download/latest/linux64
+sudo tar -xvf linux64 -C /usr/bin
+export PATH=$PATH:/usr/bin/Postman
+echo -e "${GREEN}Postman installation finished.${NO_COLOR}"
+clear
+
