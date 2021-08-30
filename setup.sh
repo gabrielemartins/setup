@@ -74,9 +74,15 @@ sudo docker run hello-world
 echo -e "${GREEN}Docker installation finished.${NO_COLOR}"
 clear
 
-
 echo -e ${PURPLE}"I'm going to install Visual Studio Code now.${NO_COLOR}"
 sudo snap install --classic code
+echo -e "${GREEN}Visual Studio Code installation finished.${NO_COLOR}"
+clear
+
+echo -e ${PURPLE}"I'm going to install Visual Studio Code now.${NO_COLOR}"
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
 echo -e "${GREEN}Visual Studio Code installation finished.${NO_COLOR}"
 clear
 
