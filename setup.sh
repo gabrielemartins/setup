@@ -184,5 +184,5 @@ echo -e ${PURPLE}"I'm going to install Discord now.${NO_COLOR}"
 sudo snap install discord
 clear
 
-echo -e ${PURPLE}"I hope everything worked out :) I'm going to restart he computer, just to make sure! Bye.${NO_COLOR}"
+echo -e ${PURPLE}"I hope everything worked out :) I'm going to restart the computer, just to make sure! Bye.${NO_COLOR}"
 shutdown -r
