@@ -8,7 +8,7 @@ echo -e "${PURPLE}Hi! My name's Hysac I'm going to help you to setup the applica
 sudo apt-get update
 clear
 
-echo -e ${PURPLE}"I'm going to install curl now.${NO_COLOR}"
+echo -e ${PURPLE}"I'm going to install Git now.${NO_COLOR}"
 sudo apt install git -y
 echo -e "${GREEN}Git installation finished.${NO_COLOR}"
 clear
