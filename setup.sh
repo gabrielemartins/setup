@@ -146,6 +146,11 @@ echo -e "${LIGHT_GREEN}Code Runner installation finished.${NO_COLOR}"
 echo -e "${BLUE}- GitLens${NO_COLOR}"
 code --install-extension eamodio.gitlens
 echo -e "${LIGHT_GREEN}GitLens installation finished.${NO_COLOR}"
+clear
+
+echo -e "${BLUE}- Commit Message Editor${NO_COLOR}"
+code --install-extension adam-bender.commit-message-editor
+echo -e "${LIGHT_GREEN}Commit Message Editor installation finished.${NO_COLOR}"
 echo -e "${GREEN}Theme and extentions installation finished.${NO_COLOR}"
 clear
 
